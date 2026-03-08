@@ -1,0 +1,28 @@
+:root {
+  --accent: #E8B4B8;
+  --bg-main: #FAF7F8;
+  --bg-secondary: #F3E6E8;
+
+  --text-primary: #2D2D2D;
+  --text-secondary: #5A5A5A;
+
+  --buttons-bg: #E8B4B8;
+  --buttons-text: #2D2D2D;
+  --buttons-hover: #DFA3A8;
+
+  --font-headings: "DM Serif Display", serif;
+  --font-primary: "Inter", sans-serif;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  background-color: var(--bg-main);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

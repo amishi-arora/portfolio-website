@@ -1,7 +1,15 @@
+import NameText from "./components/NameText/NameText"
 function App() {
   return (
     <div>
-      <h1>Amishi Arora</h1>
+      <section>
+      <NameText></NameText>
+      </section>
+      <section>
+      </section>
+      <section>
+
+      </section>
     </div>
   )
 }
