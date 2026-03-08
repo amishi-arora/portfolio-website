@@ -1,5 +1,5 @@
 import styles from "./AboutDescription.module.css";
-export default function AboutDecription() {
+export default function AboutDescription() {
     return (
         <div className={styles.textContainer}>
             <p>Hi, I'm Amishi! <br /> I'm a third year Computer Science student at the University of British Columbia,

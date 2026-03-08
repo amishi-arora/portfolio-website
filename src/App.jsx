@@ -1,10 +1,15 @@
-import HomeSection from "./sections/HomeSection/HomeSection"
-import AboutSection from "./sections/AboutSection/AboutSection"
+import Section from "./components/Section/Section.jsx"
+import NameText from "./components/NameText/NameText.jsx"
+import AboutContent from "./components/AboutContent/AboutContent.jsx"; 
 function App() {
   return (
     <>
-      <HomeSection></HomeSection>
-      <AboutSection></AboutSection>
+      <Section>
+          <NameText />
+      </Section>
+      <Section>
+          <AboutContent />
+      </Section>
     </>
   )
 }

@@ -1,5 +1,4 @@
 :root {
-  --accent: #E8B4B8;
   --bg-main: #FAF7F8;
   --bg-secondary: #F3E6E8;
 
@@ -12,25 +11,35 @@
 
   --font-headings: "DM Serif Display", serif;
   --font-primary: "Inter", sans-serif;
+
+  --link: #C08497; 
+  --link-hover: #A86F84
 }
 
 body {
   margin: 0;
   text-align: center;
   background-color: var(--bg-main);
+  font-family: var(--font-primary); 
+  color: var(--text-secondary); 
+}
+
+h1, h2 {
+  font-family: var(--font-headings); 
+  color: var(--text--primary)
 }
 
 section {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 a {
-  color:#C08497
+  color:var(--link)
 }
 
 a:hover {
-  color: #A86F84
+  color: var(--link-hover)
 }
