@@ -1,0 +1,7 @@
+.aboutImage {
+   border-radius: 360px; 
+   width: 30rem;  
+   height: 30rem; 
+   object-fit: cover; 
+   border: 2rem solid #D8C6C8; 
+}

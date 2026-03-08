@@ -1,16 +1,11 @@
-import NameText from "./components/NameText/NameText"
+import HomeSection from "./sections/HomeSection/HomeSection"
+import AboutSection from "./sections/AboutSection/AboutSection"
 function App() {
   return (
-    <div>
-      <section>
-      <NameText></NameText>
-      </section>
-      <section>
-      </section>
-      <section>
-
-      </section>
-    </div>
+    <>
+      <HomeSection></HomeSection>
+      <AboutSection></AboutSection>
+    </>
   )
 }
 
