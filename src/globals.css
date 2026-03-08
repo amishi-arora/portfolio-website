@@ -16,8 +16,13 @@
   --link-hover: #A86F84
 }
 
+html {
+  scroll-behavior: smooth; 
+}
+
 body {
   margin: 0;
+  position: relative; 
   text-align: center;
   font-family: var(--font-primary);
   color: var(--text-secondary);
