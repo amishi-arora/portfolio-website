@@ -12,33 +12,48 @@
   --font-headings: "DM Serif Display", serif;
   --font-primary: "Inter", sans-serif;
 
-  --link: #C08497; 
+  --link: #C08497;
   --link-hover: #A86F84
 }
 
 body {
   margin: 0;
   text-align: center;
-  background-color: var(--bg-main);
-  font-family: var(--font-primary); 
-  color: var(--text-secondary); 
+  font-family: var(--font-primary);
+  color: var(--text-secondary);
 }
 
-h1, h2 {
-  font-family: var(--font-headings); 
+#homeSection {
+  background: radial-gradient(circle at center,
+      #EAD7DA 0%,
+      #F3E6E8 35%,
+      #FAF7F8 75%);
+}
+
+#aboutSection {
+  background-color: white;
+}
+
+#projectSection {
+  background-color: var(--bg-main);
+}
+
+h1,
+h2 {
+  font-family: var(--font-headings);
   color: var(--text-primary)
 }
 
 section {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
 }
 
 a {
-  color:var(--link)
+  color: var(--link)
 }
 
 a:hover {
