@@ -1,0 +1,12 @@
+.textContainer {
+    color: var(--text-secondary); 
+    font-family: var(--font-primary); 
+    background-color:  #FFFFFF;
+    border: 1rem solid #D8C6C8;
+    font-size: 1.5rem; 
+    text-align: left; 
+    width: 30%; 
+    border-radius: 1rem; 
+    line-height: 3rem; 
+    padding: 3rem; 
+}

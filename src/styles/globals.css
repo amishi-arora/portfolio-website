@@ -26,3 +26,11 @@ section {
   align-items: center;
   height: 100vh;
 }
+
+a {
+  color:#C08497
+}
+
+a:hover {
+  color: #A86F84
+}
