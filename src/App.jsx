@@ -7,7 +7,7 @@ function App() {
       <Section>
           <NameText />
       </Section>
-      <Section>
+      <Section title = "About">
           <AboutContent />
       </Section>
     </>
