@@ -14,12 +14,12 @@
 }
 
 html {
-  scroll-behavior: smooth; 
+  scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
-  position: relative; 
+  position: relative;
   text-align: center;
   font-family: var(--font-primary);
   color: var(--text-secondary);

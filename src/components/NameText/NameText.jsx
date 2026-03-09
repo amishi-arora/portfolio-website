@@ -7,7 +7,7 @@ export default function NameText() {
             <ReactTyped
                 strings={["Amishi Arora"]}
                 typeSpeed={125}
-                showCursor={false}
+                showCursor={true}
             />
         </h1>
     ); 

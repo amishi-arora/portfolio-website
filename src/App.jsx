@@ -2,6 +2,7 @@ import Section from "./components/Section/Section.jsx"
 import NameText from "./components/NameText/NameText.jsx"
 import AboutContent from "./components/AboutContent/AboutContent.jsx"; 
 import NavBar from "./components/NavBar/NavBar.jsx"
+import ProjectCarousel from "./components/ProjectCarousel/ProjectCarousel.jsx";
 function App() {
   return (
     <>
@@ -12,7 +13,9 @@ function App() {
       <Section id = "aboutSection" title = "About">
           <AboutContent />
       </Section>
-      <Section id = "projectSection" title = "Projects"></Section>
+      <Section id = "projectSection" title = "Projects">
+          <ProjectCarousel/>
+      </Section>
     </>
   )
 }
