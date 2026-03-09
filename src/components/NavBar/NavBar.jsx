@@ -6,7 +6,7 @@ export default function NavBar() {
             <div>
                 <img className = {styles.logoImage} src={logo} alt="logo image" />
             </div>
-            <div className={styles.links}>
+            <div className={styles.linksGroup}>
                 <a href="#homeSection">Home</a>
                 <a href="#aboutSection">About</a>
                 <a href="#projectSection">Projects</a>

@@ -8,3 +8,11 @@
     line-height: 3rem; 
     padding: 3rem; 
 }
+
+.contactLink {
+    color: #C08497;
+}
+
+.contactLink:hover {
+    color: #A86F84;
+}

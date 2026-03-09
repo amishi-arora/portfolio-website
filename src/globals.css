@@ -11,9 +11,6 @@
 
   --font-headings: "DM Serif Display", serif;
   --font-primary: "Inter", sans-serif;
-
-  --link: #C08497;
-  --link-hover: #A86F84
 }
 
 html {
@@ -55,12 +52,4 @@ section {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-}
-
-a {
-  color: var(--link)
-}
-
-a:hover {
-  color: var(--link-hover)
 }
