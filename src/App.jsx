@@ -4,6 +4,7 @@ import AboutContent from "./components/AboutContent/AboutContent.jsx";
 import NavBar from "./components/NavBar/NavBar.jsx"
 import ProjectCarousel from "./components/ProjectCarousel/ProjectCarousel.jsx";
 import ProjectSlide from "./components/ProjectSlide/ProjectSlide.jsx";
+import DoAndDone from "./assets/DoAndDone.png"
 function App() {
   return (
     <>
@@ -16,7 +17,7 @@ function App() {
       </Section>
       <Section id="projectSection" title="Projects">
         <ProjectCarousel />
-        <ProjectSlide />
+        <ProjectSlide title = "Do and Done" description = "sample description" image = {DoAndDone} tags = {["JavaScript", "HTML", "CSS"]} gitHubLink = "https://www.youtube.com/" demoLink = "https://www.youtube.com/"/>
       </Section>
     </>
   )
