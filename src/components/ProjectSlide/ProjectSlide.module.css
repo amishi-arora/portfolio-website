@@ -61,7 +61,8 @@
   margin-top: auto;
 }
 
-.actions button {
+.actions a {
+  text-decoration: none;
   padding: 0.8rem 2rem;
   border-radius: 0.5rem;
   cursor: pointer;

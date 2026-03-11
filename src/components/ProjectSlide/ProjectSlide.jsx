@@ -17,8 +17,8 @@ export default function ProjectSlide({title, description, image, tags, gitHubLin
                 </div>
 
                 <div className={styles.actions}>
-                    {gitHubLink && <button className = {styles.gitHubButton}>GitHub</button>}
-                    {demoLink && <button className = {styles.demoButton}>Demo</button>}
+                    {gitHubLink && <a href = {gitHubLink} className = {styles.gitHubButton} target="_blank" rel="noopener noreferrer">GitHub</a>}
+                    {demoLink && <a href = {demoLink} className = {styles.demoButton} target="_blank" rel="noopener noreferrer">Demo</a>}
                 </div>
             </div >
         </div>
