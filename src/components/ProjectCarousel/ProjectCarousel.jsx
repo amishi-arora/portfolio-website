@@ -1,5 +1,6 @@
 import useEmblaCarousel from 'embla-carousel-react'
 import styles from "./ProjectCarousel.module.css"
+import ProjectSlide from '../ProjectSlide/ProjectSlide'
 
 export default function ProjectCarousel() {
     const [carouselRef, carouselApi] = useEmblaCarousel({ loop: false })
@@ -10,8 +11,7 @@ export default function ProjectCarousel() {
         <div>
             <div className={styles.viewport} ref={carouselRef}>
                 <div className={styles.container}>
-                    <div className={styles.slide}>Slide 1</div>
-                    <div className={styles.slide}>Slide 2</div>
+                    {/* slides here */}
                 </div>
             </div>
 
