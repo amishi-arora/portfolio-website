@@ -5,7 +5,7 @@ export default function ProjectSlide({title, description, image, tags, gitHubLin
         <div className={styles.slide}>
 
             <div className={styles.imageContainer}>
-                <img src={image} className={styles.image} alt="Project Image" />
+                {image && <img src={image} className={styles.image} alt="Project Image" />}
             </div>
 
             <div className={styles.content}>

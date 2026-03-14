@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar/NavBar.jsx"
 import ProjectCarousel from "./components/ProjectCarousel/ProjectCarousel.jsx";
 import ProjectSlide from "./components/ProjectSlide/ProjectSlide.jsx";
 import DoAndDone from "./assets/DoAndDone.png"
+import projectDescriptions from "./ProjectDescriptions.js";
 function App() {
   return (
     <>
@@ -17,7 +18,7 @@ function App() {
       </Section>
       <Section id="projectSection" title="Projects">
         <ProjectCarousel />
-        <ProjectSlide title = "Do and Done" description = "sample description" image = {DoAndDone} tags = {["JavaScript", "HTML", "CSS"]} gitHubLink = "https://www.youtube.com/" demoLink = "https://www.youtube.com/"/>
+        {projectDescriptions.map(p => <ProjectSlide title = {p.title} description = {p.description} tags = {p.tags} gitHubLink = {p.gitHubLink} demoLink = {p.demoLink}/>)}
       </Section>
     </>
   )

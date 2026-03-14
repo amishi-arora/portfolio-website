@@ -4,7 +4,7 @@ export default function NavBar() {
     return (
         <nav className={styles.navBar}>
             <div>
-                <img className = {styles.logoImage} src={logo} alt="logo image" />
+                
             </div>
             <div className={styles.linksGroup}>
                 <a href="#homeSection">Home</a>
