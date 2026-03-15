@@ -1,8 +1,11 @@
 .viewport{
   overflow: hidden;
+  max-width: 48rem;
+  padding: 1rem;  
 }
 
 .container {
   display: flex;
+  gap: 1rem; 
   touch-action: pan-y pinch-zoom;
 }
