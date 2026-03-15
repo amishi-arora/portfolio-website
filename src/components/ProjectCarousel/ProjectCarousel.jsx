@@ -16,11 +16,14 @@ export default function ProjectCarousel() {
                 </div>
             </div>
 
-            <button onClick={goToPrev}>
-                Scroll to prev
+            <div>
+                
+            </div>
+            <button className = {styles.nextAndPrevButt} onClick={goToPrev}>
+                &#8249;
             </button>
-            <button onClick={goToNext}>
-                Scroll to next
+            <button className = {styles.nextAndPrevButt}  onClick={goToNext}>
+                &#8250;
             </button>
         </div>
     )

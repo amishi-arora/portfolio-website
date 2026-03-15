@@ -1,10 +1,31 @@
-.viewport{
+.viewport {
   overflow: hidden;
   max-width: 48rem;
 }
 
 .container {
   display: flex;
-  gap: 1rem; 
+  gap: 1rem;
   touch-action: pan-y pinch-zoom;
+}
+
+.nextAndPrevButt {
+  text-decoration: none;
+  cursor: pointer;
+
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
+  border-radius: 50%;
+  float: left;
+  margin: 0.25rem;
+
+  color: #374151;
+  background-color: white;
+  border: 1px solid var(--bg-secondary);
+}
+
+.nextAndPrevButt:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
 }
