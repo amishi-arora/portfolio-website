@@ -12,7 +12,7 @@ export default function ProjectCarousel() {
         <div>
             <div className={styles.viewport} ref={carouselRef}>
                 <div className={styles.container}>
-                    {projectDescriptions.map(p => <ProjectSlide key = {p.title} title = {p.title} description = {p.description} tags = {p.tags} gitHubLink = {p.gitHubLink} demoLink = {p.demoLink}/>)}
+                    {projectDescriptions.map(p => <ProjectSlide key = {p.title} title = {p.title} description = {p.description} image = {p.image} tags = {p.tags} gitHubLink = {p.gitHubLink} demoLink = {p.demoLink}/>)}
                 </div>
             </div>
 
@@ -25,6 +25,8 @@ export default function ProjectCarousel() {
             <button className = {styles.nextAndPrevButt}  onClick={goToNext}>
                 &#8250;
             </button>
+
+
         </div>
     )
 }
