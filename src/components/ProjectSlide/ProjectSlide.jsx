@@ -13,7 +13,7 @@ export default function ProjectSlide({title, description, image, tags, gitHubLin
                 <p className={styles.description}>{description}</p>
 
                 <div className={styles.tags}>
-                    {tags && tags.map(t => <span>{t}</span>)}
+                    {tags && tags.map(t => <span key = {t}>{t}</span>)}
                 </div>
 
                 <div className={styles.actions}>
