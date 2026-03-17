@@ -53,3 +53,8 @@ section {
   align-items: center;
   min-height: 100vh;
 }
+
+a, 
+button {
+ cursor: pointer; 
+}
