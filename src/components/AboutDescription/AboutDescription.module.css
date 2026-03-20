@@ -1,6 +1,6 @@
 .textContainer {
     background-color:  #FFFFFF;
-    border: 1rem solid var(--bg-secondary);
+    border: 1rem solid var(--border-color);
     font-size: 1.5rem; 
     text-align: left; 
     width: 30%; 
@@ -10,9 +10,9 @@
 }
 
 .contactLink {
-    color: #C08497;
+    color: var(--text-secondary);
 }
 
 .contactLink:hover {
-    color: #A86F84;
+    color: var(--link-hover);
 }

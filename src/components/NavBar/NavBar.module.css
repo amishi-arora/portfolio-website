@@ -1,8 +1,9 @@
 .navBar {
     display: flex; 
-    justify-content: space-between;
+    justify-content: flex-end;
     position: fixed; 
     width: 100%; 
+    z-index: 1; 
 }
 
 .linksGroup a {
@@ -13,7 +14,7 @@
 } 
 
 .linksGroup a:hover {
-    color: #A86F84; 
+    color: var(--link-hover); 
 }
 
 .linksGroup {
