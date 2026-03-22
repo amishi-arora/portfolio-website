@@ -1,4 +1,24 @@
 .aboutContentContainer {
-    display: flex; 
-    justify-content: space-evenly; 
+    background-color: var(--card-bg); 
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    width: 60%;
+    padding: 3rem;
+    border-radius: 2rem;
+    border: solid 0.5rem var(--border-color);
+    align-items: center;
+}
+
+
+.aboutImage {
+    width: 28%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.textContainer {
+    font-size: 1.2rem;
+    text-align: left;
+    line-height: 2rem;
 }
