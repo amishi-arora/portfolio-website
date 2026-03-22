@@ -10,11 +10,10 @@
     align-items: center;
 }
 
-
 .aboutImage {
     width: 30%;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 1rem;
 }
 
 .textContainer {
