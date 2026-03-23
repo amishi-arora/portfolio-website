@@ -1,19 +1,19 @@
 .slide {
   box-sizing: border-box;
-  flex: 0 0 100%; 
-  min-width: 0; 
+  flex: 0 0 100%;
+  min-width: 0;
   display: flex;
   flex-direction: column;
   gap: 1rem;
   background-color: var(--card-bg);
   border: 0.5rem solid var(--border-color);
   border-radius: 2rem;
+  padding: 1% 5% 0;
 }
 
 
 .imageContainer {
-  margin: 1rem; 
-  height: 20rem;
+  height: 14rem;
   overflow: hidden;
 }
 
@@ -26,9 +26,7 @@
 .content {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
-  padding: 1rem;
-  flex: 1;
+  gap: 0.6rem;
 }
 
 .title {
@@ -44,11 +42,12 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 0.6rem;
+  margin-bottom: 0rem;
 }
 
 .tags span {
-  padding: 0.5rem;
-  background-color: var(--tag-bg); 
+  padding: 0.3rem;
+  background-color: var(--tag-bg);
   color: #2D2D2D;
   border-radius: 999px;
   font-size: 0.8rem;
@@ -59,7 +58,8 @@
   display: flex;
   justify-content: center;
   gap: 0.6rem;
-  margin-top: auto;
+  margin-top: 1rem;
+  padding-bottom: 0;
 }
 
 .actions a {
@@ -73,7 +73,7 @@
 .gitHubButton {
   background-color: var(--button-primary-bg);
   border: none;
-  color: white; 
+  color: white;
 }
 
 .gitHubButton:hover {
@@ -87,5 +87,5 @@
 }
 
 .demoButton:hover {
-  background-color: var(--button-secondary-hover); 
+  background-color: var(--button-secondary-hover);
 }
