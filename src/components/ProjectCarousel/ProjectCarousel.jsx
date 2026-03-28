@@ -22,7 +22,7 @@ export default function ProjectCarousel() {
 
 
     return (
-        <div className = {styles.wrapper}>
+        <div data-aos="fade-up" data-aos-delay="200" className = {styles.wrapper}>
             <div className={styles.viewport} ref={carouselRef}>
                 <div className={styles.container}>
                     {projectDescriptions.map(p => <ProjectSlide key={p.title} title={p.title} description={p.description} image={p.image} tags={p.tags} gitHubLink={p.gitHubLink} demoLink={p.demoLink} />)}

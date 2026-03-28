@@ -2,7 +2,7 @@ import styles from "./AboutContent.module.css"
 import headshot from "../../assets/headshot.png"; 
 export default function AboutContent() {
     return (
-        <div className = {styles.aboutContentContainer}>
+        <div data-aos="fade-up" data-aos-delay="200" className = {styles.aboutContentContainer}>
             <img className={styles.aboutImage} src={headshot} alt="headshot" />
             <div className={styles.textContainer}>
                 <p>Hi, I'm Amishi! <br /> I'm a third year Computer Science student at the University of British Columbia,
