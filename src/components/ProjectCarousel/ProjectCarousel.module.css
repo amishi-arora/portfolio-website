@@ -9,7 +9,7 @@
 .container {
   display: flex;
   gap: 1rem;
-  touch-action: pan-y pinch-zoom;
+  touch-action: pan-y pinch-zoom; 
 }
 
 .nextAndPrevButt {
