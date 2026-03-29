@@ -22,36 +22,31 @@ export default function ProjectCarousel() {
 
 
     return (
-        <div data-aos="fade-up" data-aos-delay="200" className = {styles.wrapper}>
-            <div className={styles.viewport} ref={carouselRef}>
-                <div className={styles.container}>
-                    {projectDescriptions.map(p => <ProjectSlide key={p.title} title={p.title} description={p.description} image={p.image} tags={p.tags} gitHubLink={p.gitHubLink} demoLink={p.demoLink} />)}
+        <div data-aos="fade-up" data-aos-delay="200" className={styles.wrapper}>
+
+            <div className={styles.viewportAndButtons}>
+                <button className={styles.nextAndPrevButt} onClick={goToPrev}>
+                    &#8249;
+                </button>
+                <div className={styles.viewport} ref={carouselRef}>
+                    <div className={styles.container}>
+                        {projectDescriptions.map(p => <ProjectSlide key={p.title} title={p.title} description={p.description} image={p.image} tags={p.tags} gitHubLink={p.gitHubLink} demoLink={p.demoLink} />)}
+                    </div>
                 </div>
+                <button className={styles.nextAndPrevButt} onClick={goToNext}>
+                    &#8250;
+                </button>
             </div>
-
-
-            <div className={styles.carouselControls}>
-                <div >
-                    <button className={styles.nextAndPrevButt} onClick={goToPrev}>
-                        &#8249;
+            <div className={styles.dotsContainer}>
+                {scrollSnaps.map((_, index) => (
+                    <button
+                        className={styles.slideDots}
+                        key={index}
+                        onClick={() => goTo(index)}
+                    >
                     </button>
-                    <button className={styles.nextAndPrevButt} onClick={goToNext}>
-                        &#8250;
-                    </button>
-                </div>
-
-                <div className={styles.dotsContainer}>
-                    {scrollSnaps.map((_, index) => (
-                        <button
-                            className={styles.slideDots}
-                            key={index}
-                            onClick={() => goTo(index)}
-                        >
-                        </button>
-                    ))}
-                </div>
+                ))}
             </div>
-
         </div>
     )
 }

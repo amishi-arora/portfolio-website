@@ -1,35 +1,35 @@
 .wrapper {
-  width: 60%;
+  width: 65%;
 }
 
 .viewport {
   overflow: hidden;
+  flex: 1;
 }
 
 .container {
   display: flex;
   gap: 1rem;
-  touch-action: pan-y pinch-zoom; 
+  touch-action: pan-y pinch-zoom;
 }
 
 .nextAndPrevButt {
+  flex: 0 0 auto;
   text-decoration: none;
-
   font-size: 2rem;
-  width: 3rem;
-  height: 3rem;
+  width: 3.5rem;
+  height: 3.5rem;
   border-radius: 50%;
   margin: 0.25rem;
 
-  background-color: white;
-  border: 1px solid var(--border-color);
+  background-color: var(--card-bg);
+  border: 0.25rem solid var(--border-color);
 
-  color: var(--text-primary); 
+  color: var(--border-color);
 }
 
 .nextAndPrevButt:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px); 
 }
 
 .dotsContainer {
@@ -37,7 +37,8 @@
   flex-wrap: wrap;
   gap: 0.5rem;
   align-items: center;
-  margin-top: 0.25rem;
+  justify-content: center;
+  margin-top: 0.8rem;
 }
 
 .slideDots {
@@ -55,4 +56,11 @@
 .carouselControls {
   display: flex;
   justify-content: space-between;
+}
+
+.viewportAndButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem; 
 }
