@@ -29,7 +29,13 @@
 }
 
 .nextAndPrevButt:hover {
-  transform: translateY(-1px); 
+  transform: translateY(-1px);
+}
+
+.nextAndPrevButt:disabled {
+  opacity: 0.5; 
+  pointer-events: none; 
+  transform: none; 
 }
 
 .dotsContainer {
@@ -45,12 +51,16 @@
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
-  border: 0.12rem solid var(--border-color);
-  background-color: white;
+  border: 0.18rem solid var(--border-color);
+  background-color: var(--card-bg);
 }
 
 .slideDots:hover {
-  transform: scale(1.1);
+  background-color: var(--border-color);
+}
+
+.highlightedDot {
+  background-color: var(--border-color);
 }
 
 .carouselControls {
@@ -62,5 +72,5 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 0.5rem; 
+  gap: 0.5rem;
 }
