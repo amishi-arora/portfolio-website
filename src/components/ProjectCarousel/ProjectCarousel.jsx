@@ -5,7 +5,7 @@ import ProjectSlide from '../ProjectSlide/ProjectSlide'
 import projectDescriptions from "../../ProjectDescriptions.js";
 
 export default function ProjectCarousel() {
-    const [carouselRef, carouselApi] = useEmblaCarousel({ loop: false, duration: 30 })
+    const [carouselRef, carouselApi] = useEmblaCarousel({ loop: false, duration: 30, align: 'center' })
     const [scrollSnaps, setScrollSnaps] = useState([]);
     const [selectedIndex, setSelectedIndex] = useState(0);
 
@@ -26,7 +26,7 @@ export default function ProjectCarousel() {
         setupSnaps(carouselApi)
         onSelect(carouselApi);
         carouselApi.on('select', onSelect);
-        carouselApi.on('reinit', setupSnaps); 
+        carouselApi.on('reinit', setupSnaps);
     }, [carouselApi, setupSnaps, onSelect])
 
 
@@ -36,30 +36,32 @@ export default function ProjectCarousel() {
     return (
         <div data-aos="fade-up" data-aos-delay="200" className={styles.wrapper}>
 
-            <div className={styles.viewportAndButtons}>
+            <div className={styles.viewport} ref={carouselRef}>
+                <div className={styles.container}>
+                    {projectDescriptions.map((p, index) => <ProjectSlide key={p.title} title={p.title} description={p.description} image={p.image} tags={p.tags} gitHubLink={p.gitHubLink} demoLink={p.demoLink} isSelected = {index === selectedIndex}/>)}
+                </div>
+            </div>
+
+            <div className={styles.carouselControls}>
                 <button className={styles.nextAndPrevButt} onClick={goToPrev} disabled={prevButtonDisabled}>
                     &#8249;
                 </button>
-                <div className={styles.viewport} ref={carouselRef}>
-                    <div className={styles.container}>
-                        {projectDescriptions.map(p => <ProjectSlide key={p.title} title={p.title} description={p.description} image={p.image} tags={p.tags} gitHubLink={p.gitHubLink} demoLink={p.demoLink} />)}
-                    </div>
+                <div className={styles.dotsContainer}>
+                    {
+                        scrollSnaps.map((_, index) => {
+                            const isActive = index === selectedIndex;
+                            return <button
+                                className={`${styles.slideDots} ${isActive ? styles.highlightedDot : ""}`}
+                                key={index}
+                                onClick={() => goTo(index)}
+                            >
+                            </button>
+                        })}
                 </div>
                 <button className={styles.nextAndPrevButt} onClick={goToNext} disabled={nextButtonDisabled}>
                     &#8250;
                 </button>
-            </div>
-            <div className={styles.dotsContainer}>
-                {
-                    scrollSnaps.map((_, index) => {
-                        const isActive = index === selectedIndex;
-                        return <button
-                            className={`${styles.slideDots} ${isActive ? styles.highlightedDot : ""}`}
-                            key={index}
-                            onClick={() => goTo(index)}
-                        >
-                        </button>
-                    })}
+
             </div>
         </div>
     )

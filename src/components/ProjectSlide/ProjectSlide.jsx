@@ -1,8 +1,8 @@
 import styles from "./ProjectSlide.module.css"
 
-export default function ProjectSlide({title, description, image, tags, gitHubLink, demoLink}) {
+export default function ProjectSlide({title, description, image, tags, gitHubLink, demoLink, isSelected}) {
     return (
-        <div className={styles.slide}>
+        <div className= {`${styles.slide} ${isSelected? "" : styles.dimmedSlide}`}>
 
             <div className={styles.imageContainer}>
                 <img src={image} className={styles.image} alt="Project Image" />
