@@ -1,5 +1,5 @@
 .aboutContentContainer {
-    background-color: var(--card-bg); 
+    background-color: var(--card-bg);
     display: flex;
     flex-direction: row;
     gap: 4rem;
@@ -14,6 +14,11 @@
     width: 30%;
     object-fit: cover;
     border-radius: 1rem;
+    transition: transform 0.25s ease;
+}
+
+.aboutImage:hover {
+    transform: scale(1.02);
 }
 
 .textContainer {
@@ -21,3 +26,4 @@
     text-align: left;
     line-height: 2rem;
 }
+
