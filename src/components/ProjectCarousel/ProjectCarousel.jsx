@@ -5,7 +5,7 @@ import ProjectSlide from '../ProjectSlide/ProjectSlide'
 import projectDescriptions from "../../ProjectDescriptions.js";
 
 export default function ProjectCarousel() {
-    const [carouselRef, carouselApi] = useEmblaCarousel({ loop: true, duration: 30, align: 'center' })
+    const [carouselRef, carouselApi] = useEmblaCarousel({ loop: true, duration: 30})
     const [scrollSnaps, setScrollSnaps] = useState([]);
     const [selectedIndex, setSelectedIndex] = useState(0);
 
