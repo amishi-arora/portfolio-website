@@ -5,7 +5,7 @@ import ProjectSlide from '../ProjectSlide/ProjectSlide'
 import projectDescriptions from "../../ProjectDescriptions.js";
 
 export default function ProjectCarousel() {
-    const [carouselRef, carouselApi] = useEmblaCarousel({ loop: false, duration: 30, align: 'center' })
+    const [carouselRef, carouselApi] = useEmblaCarousel({ loop: true, duration: 30, align: 'center' })
     const [scrollSnaps, setScrollSnaps] = useState([]);
     const [selectedIndex, setSelectedIndex] = useState(0);
 
@@ -30,9 +30,6 @@ export default function ProjectCarousel() {
     }, [carouselApi, setupSnaps, onSelect])
 
 
-    const nextButtonDisabled = selectedIndex === scrollSnaps.length - 1;
-    const prevButtonDisabled = selectedIndex === 0;
-
     return (
         <div data-aos="fade-up" data-aos-delay="200" className={styles.wrapper}>
 
@@ -43,7 +40,7 @@ export default function ProjectCarousel() {
             </div>
 
             <div className={styles.carouselControls}>
-                <button className={styles.nextAndPrevButt} onClick={goToPrev} disabled={prevButtonDisabled}>
+                <button className={styles.nextAndPrevButt} onClick={goToPrev}>
                     &#8249;
                 </button>
                 <div className={styles.dotsContainer}>
@@ -58,7 +55,7 @@ export default function ProjectCarousel() {
                             </button>
                         })}
                 </div>
-                <button className={styles.nextAndPrevButt} onClick={goToNext} disabled={nextButtonDisabled}>
+                <button className={styles.nextAndPrevButt} onClick={goToNext}>
                     &#8250;
                 </button>
 
