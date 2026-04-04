@@ -17,8 +17,8 @@ export default function ProjectSlide({ title, description, image, tags, gitHubLi
                     </div>
 
                     <div className={styles.actions}>
-                        {gitHubLink && <a href={gitHubLink} className={styles.gitHubButton} target="_blank" rel="noopener noreferrer">GitHub</a>}
-                        {demoLink && <a href={demoLink} className={styles.demoButton} target="_blank" rel="noopener noreferrer">Demo</a>}
+                        {gitHubLink && <a href={gitHubLink} className={styles.gitHubButton} target="_blank" rel="noopener noreferrer"><i className="fa-solid fa-code-branch"></i> GitHub </a>}
+                        {demoLink && <a href={demoLink} className={styles.demoButton} target="_blank" rel="noopener noreferrer"><i className="fa-solid fa-arrow-up-right-from-square"></i>Demo</a>}
                     </div>
                 </div >
             </div>

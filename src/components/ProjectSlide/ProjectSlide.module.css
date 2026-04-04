@@ -79,8 +79,11 @@
 }
 
 .actions a {
+  display: inline-flex; 
+  align-items: center;
+  gap: 0.3rem; 
   text-decoration: none;
-  padding: 0.8rem 2rem;
+  padding: 0.6rem; 
   border-radius: 0.5rem;
   font-size: 1rem;
   transition: all 0.2s ease;
