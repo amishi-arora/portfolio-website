@@ -54,10 +54,10 @@ export default function ProjectCarousel() {
                 </div>
                 <div className={styles.buttonsContainer}>
                     <button className={styles.nextAndPrevButt} onClick={goToPrev}>
-                        <i class="fa-solid fa-chevron-left"></i>
+                        <i className="fa-solid fa-chevron-left"></i>
                     </button>
                     <button className={styles.nextAndPrevButt} onClick={goToNext}>
-                        <i class="fa-solid fa-chevron-right"></i>
+                        <i className="fa-solid fa-chevron-right"></i>
                     </button>
                 </div>
             </div>
