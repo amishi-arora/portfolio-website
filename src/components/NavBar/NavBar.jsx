@@ -7,7 +7,7 @@ export default function NavBar() {
     const handleScroll = useCallback(() => {
         const windowHeight = window.innerHeight;
         const halfWindowH = windowHeight / 2;
-        const midPoint = window.pageYOffset + halfWindowH;
+        const midPoint = window.scrollY + halfWindowH;
 
         if (midPoint < windowHeight) {
             setHighlightedSection('Home');
