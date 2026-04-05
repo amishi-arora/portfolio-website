@@ -5,7 +5,7 @@ import ProjectSlide from '../ProjectSlide/ProjectSlide'
 import projectDescriptions from "../../ProjectDescriptions.js";
 
 export default function ProjectCarousel() {
-    const [carouselRef, carouselApi] = useEmblaCarousel({ loop: true, duration: 30})
+    const [carouselRef, carouselApi] = useEmblaCarousel({ loop: true, duration: 30 })
     const [scrollSnaps, setScrollSnaps] = useState([]);
     const [selectedIndex, setSelectedIndex] = useState(0);
 
@@ -35,14 +35,11 @@ export default function ProjectCarousel() {
 
             <div className={styles.viewport} ref={carouselRef}>
                 <div className={styles.container}>
-                    {projectDescriptions.map((p, index) => <ProjectSlide key={p.title} title={p.title} description={p.description} image={p.image} tags={p.tags} gitHubLink={p.gitHubLink} demoLink={p.demoLink} isSelected = {index === selectedIndex}/>)}
+                    {projectDescriptions.map((p, index) => <ProjectSlide key={p.title} title={p.title} description={p.description} image={p.image} tags={p.tags} gitHubLink={p.gitHubLink} demoLink={p.demoLink} isSelected={index === selectedIndex} />)}
                 </div>
             </div>
 
             <div className={styles.carouselControls}>
-                <button className={styles.nextAndPrevButt} onClick={goToPrev}>
-                    &#8249;
-                </button>
                 <div className={styles.dotsContainer}>
                     {
                         scrollSnaps.map((_, index) => {
@@ -55,10 +52,14 @@ export default function ProjectCarousel() {
                             </button>
                         })}
                 </div>
-                <button className={styles.nextAndPrevButt} onClick={goToNext}>
-                    &#8250;
-                </button>
-
+                <div className={styles.buttonsContainer}>
+                    <button className={styles.nextAndPrevButt} onClick={goToPrev}>
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <button className={styles.nextAndPrevButt} onClick={goToNext}>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
             </div>
         </div>
     )
