@@ -8,20 +8,22 @@
 
 .link {
     color: var(--text-secondary);
-    padding: 1rem;
+    padding: 0.4rem 0.7rem 0 0.7rem;
     text-decoration: none;
     font-family: var(--font-primary);
     transition: all 0.4s ease;
     font-size: 1.05rem;
+    background-color: transparent;
+    border: none;
 }
 
-.linksGroup a:hover {
-    color: var(--link-hover); 
+.link:hover{
+    color: var(--navlink-hover); 
     text-decoration: underline; 
 }
 
 .active {
-    color: var(--link-hover); 
+    color: var(--navlink-hover); 
     text-decoration: underline; 
 }
 

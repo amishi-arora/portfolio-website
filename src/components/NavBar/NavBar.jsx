@@ -4,6 +4,11 @@ import { useState, useEffect, useCallback } from "react";
 export default function NavBar() {
     const [highlightedSection, setHighlightedSection] = useState("Home");
 
+    function scrollToSection(id) {
+        const el = document.getElementById(id); 
+        el.scrollIntoView({behavior: "smooth"}); 
+    }
+
     const handleScroll = useCallback(() => {
         const windowHeight = window.innerHeight;
         const halfWindowH = windowHeight / 2;
@@ -28,9 +33,9 @@ export default function NavBar() {
     return (
         <nav className={styles.navBar}>
             <div className={styles.linksGroup}>
-                <a className={`${styles.link} ${highlightedSection === 'Home' ? styles.active : ''}`} href="#homeSection">Home</a>
-                <a className={`${styles.link} ${highlightedSection === 'About' ? styles.active : ''}`} href="#aboutSection">About</a>
-                <a className={`${styles.link} ${highlightedSection === 'Projects' ? styles.active : ''}`} href="#projectSection">Projects</a>
+                <button className={`${styles.link} ${highlightedSection === 'Home' ? styles.active : ''}`} onClick= {() => scrollToSection("homeSection")}>Home</button>
+                <button className={`${styles.link} ${highlightedSection === 'About' ? styles.active : ''}`} onClick= {() => scrollToSection("aboutSection")}>About</button>
+                <button className={`${styles.link} ${highlightedSection === 'Projects' ? styles.active : ''}`} onClick= {() => scrollToSection("projectSection")}>Projects</button>
             </div>
             <div className={styles.contact}>
                 <a href="https://github.com/amishi-arora" target="_blank"><i className="fa-brands fa-github"></i></a>
