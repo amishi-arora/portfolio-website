@@ -10,8 +10,6 @@ export const aboutDescription = [
     "I am currently interning as a QA Engineer at the BCMEA, where I have gained hands-on experience with tools like Selenium, Playwright, and NUnit. I previously interned as a Software Developer at TeejLab, where I helped enhance the company’s user interface using HTML, CSS, and JavaScript.",
     "My experience across both software development and software testing allows me to deliver reliable, well-tested code.",
     "Outside of work and academics, I enjoy baking, reading, and spending time with my family and friends.",
-    <span>Check out my <a href="">GitHub</a> <br />
-        Get in touch through my <a href="">Email</a> or <a href="">LinkedIn</a></span>
 ]
 
 export const projectDescriptions = [

@@ -2,24 +2,26 @@
   --text-primary: #4a3f3f;
   --text-secondary: #5c4f4f;
 
-  --primary-bg: #f3dfe6; 
-  --card-bg: #fff9f6; 
+  --primary-bg: #f3dfe6;
+  --card-bg: #fff9f6;
 
-  --border-color: #e0bfc9; 
+  --border-color: #e0bfc9;
 
   --button-primary-bg: #d6a5b3;
   --button-primary-hover: #c48f9e;
-  --button-secondary-hover: #f3e6ea; 
+  --button-secondary-hover: #f3e6ea;
 
   --font-headings: "Nunito", sans-serif;
   --font-primary: "Lato", sans-serif;
 
-  --tag-bg: #d2c3bd; 
+  --tag-bg: #d2c3bd;
 
-  --primary-title-size: 4.5rem; 
-  --secondary-title-size: 3.5rem; 
+  --primary-title-size: 4.5rem;
+  --secondary-title-size: 3.5rem;
 
-  --link-hover: #5c3f46;
+  --about-link-color: #b86b7c;
+  --about-link-hover: #944d5a;
+  --navlink-hover: #7a5c6e;
 }
 
 html {
@@ -45,33 +47,32 @@ body {
 
 
 h1 {
-  font-size: var(--primary-title-size); 
+  font-size: var(--primary-title-size);
 }
 
 h2 {
-  font-size: var(--secondary-title-size); 
+  font-size: var(--secondary-title-size);
 }
 
 h1,
-h2, 
-h3
- {
+h2,
+h3 {
   font-family: var(--font-headings);
   color: var(--text-primary);
 }
 
 section {
-  background-color: var(--primary-bg); 
+  background-color: var(--primary-bg);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  gap: 1rem; 
+  gap: 1rem;
 }
 
 a,
-button, 
+button,
 i {
   cursor: pointer;
 }

@@ -29,3 +29,11 @@
 .textContainer p {
     margin: 0.8rem 0; 
 }
+
+.links a {
+    color: var(--about-link-color);
+}
+
+.links a:hover {
+    color: var(--about-link-hover);
+}
