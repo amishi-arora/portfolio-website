@@ -15,7 +15,7 @@ export const aboutDescription = [
 export const projectDescriptions = [
     {
         "title": "Recipe Management System",
-        "description": "This project was created for my Introduction to Relational Databases course. I worked with two other team members to create a full-stack project for managing recipes and cooking course registrations. We designed a database schema and wrote queries to filter recipes, track course registrations, and update recipe information. We developed a responsive UI with HTML, CSS, and JavaScript for interaction with the database. ",
+        "description": "For my Relational Databases course, I worked with two of my classmates to create a full-stack Recipe Management System. This application allows users to upload, favourite, and review various recipes. Recipes contain details like ingredients, equipment, steps, and tags. Additionally, chefs can host courses to demonstrate specific recipes, which other users can sign up for.",
         "image": RecipeManagementImage,
         "tags": ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "SQL", "Oracle"],
         "gitHubLink": "https://github.com/amishi-arora/Recipe-Management-System",
@@ -23,39 +23,39 @@ export const projectDescriptions = [
     },
     {
         "title": "Connect Quest",
-        "description": "For a 24-hour hackathon, I team upped with 3 other participants to create Connect Quest. Connect Quest is a full-stack application that provides users with daily self-help challenges to complete and earn points. Our goal with this project was to encourage self-care through a fun, gamified way. We used React for the front end and Node.js for the backend, and stored our challenges in a MongoDB database. For many of us, including myself, it was our first time working with these technologies, so we had to learn as we went. NOTE: The API we deployed to connect to the database has been deprecated, which has caused the application to no longer work fully. ",
+        "description": "For a 24-hour hackathon, I collaborated with three other participants to create Connect Quest. Connect Quest is a full-stack application that provides users with daily self-help challenges they can complete to earn points. The project aims to promote self-care through a fun, gamified way. We implemented the frontend with React, the backend with Node.js, and stored our challenges in a MongoDB database. For many of us, including myself, this was our first experience with these technologies, so we learned and adapted as we went. ",
         "image": ConnectQuestImage,
-        "tags": ["React", "Node.js", "MongoDB"],
+        "tags": ["React", "Node.js", "MongoDB", "Defang.io"],
         "gitHubLink": "https://github.com/amishi-arora/nwHacks-Project",
         "demoLink": "https://devpost.com/software/connect-quest"
     },
     {
         "title": "Habit Hatchery",
-        "description": "Habit Hatchery was created during a 12-hour hackathon. Users can create a fishtank and name it after a habit. For each day they complete their habit, they can add a plant or animal to the tank, providing a fun and motivating way to stay on track with their goals. My two team members were responsible for designing the UI in Figma and drawing the artwork used on the site. I worked on implementing the project using HTML, CSS, and JavaScript.",
+        "description": "I created Habit Hatchery with two team members during a 12-hour hackathon. The application allows users to name a fish tank after their habit and populate it with a moving animal or plant for each day they complete the habit. By turning habit tracking into a playful, visual experience, the app encourages users to stay consistent and see their progress grow over time. ",
         "image": HabitHatcheryImage,
-        "tags": ["HTML", "CSS", "JavaScript"],
+        "tags": ["HTML", "CSS", "JavaScript", "Figma"],
         "gitHubLink": "https://github.com/amishi-arora/Habit-Hatchery",
         "demoLink": "https://devpost.com/software/habit-hatchery"
     },
     {
         "title": "Habit Tracker",
-        "description": "This habit tracker application was created for my Software Construction class using Java and object-oriented programming. It allows users to add and delete habits and check them off daily. I implemented a unit test suite with JUnit, achieving 98% code coverage, and developed a graphical user interface using JavaFX. To allow users to track their progress across multiple sessions, I included a save and load functionality using JSON. ",
+        "description": "This habit tracker application was developed in Java using object-oriented programming. It allows users to add and delete habits and check them off daily. I implemented a unit test suite with JUnit, achieving 98% code coverage, and developed a graphical user interface using JavaFX. To allow users to track their progress across multiple sessions, I included a save and load functionality using JSON. ",
         "image": HabitTrackerImage,
-        "tags": ["Java", "JUnit", "JavaFX", "JSON"],
+        "tags": ["Java", "JUnit", "JavaFX", "JSON", "Test Driven Design", "OOP"],
         "gitHubLink": "https://github.com/amishi-arora/Habit-Tracker-CPSC-210",
         "demoLink": null
     },
     {
         "title": "Do and Done",
-        "description": "I created Do and Done for my grade twelve capstone project. Do and Done is a Kanban-style task management system where users can add and delete tasks and move them to different sections on the board based on their status. I leveraged libraries such as dragula.js and particles.js to enhance the user experience and implemented user authentication with Firebase. ",
+        "description": "I developed Do and Done for my Grade 12 capstone project. Inspired by my personal use of to-do list applications, I decided to create my own. Do and Done is a Kanban-style task management system that allows users to add and delete tasks and move them to different sections based on their status. I leveraged libraries such as dragula.js and particles.js to enhance the user experience and implemented user authentication with Firebase. ",
         "image": DoAndDoneImage,
-        "tags": ["HTML", "CSS", "JavaScript", "Firebase"],
+        "tags": ["HTML", "CSS", "JavaScript", "Firebase", "Dragula.js", "Particles.js"],
         "gitHubLink": "https://github.com/amishi-arora/Do-and-Done",
         "demoLink": "https://doanddone23.netlify.app/"
     },
     {
         "title": "Math Games",
-        "description": "This math games site was my first technical project. After taking my first programming class in grade 10, I was eager to apply what I had learned and decided to create a math games website using HTML, CSS, and JavaScript. Users can practice addition, subtraction, multiplication, or division. When they click ready, they have 30 seconds to answer as many questions as they can. At the end, they can see a summary of their correct and incorrect questions. ",
+        "description": "After taking a programming class in Grade 10, I was inspired to create my very first technical project: a Math Games website. The site allows users to practice addition, subtraction, multiplication, or division by answering as many questions as they can within 30 seconds. At the end of each session, users can view a summary of their correct and incorrect answers. This project sparked my passion for software development, motivating me to pursue it further in university. ",
         "image": MathGamesImage,
         "tags": ["HTML", "CSS", "JavaScript"],
         "gitHubLink": "https://github.com/amishi-arora/Math-Website",
