@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import useEmblaCarousel from 'embla-carousel-react'
 import styles from "./ProjectCarousel.module.css"
 import ProjectSlide from '../ProjectSlide/ProjectSlide'
-import projectDescriptions from "../../ProjectDescriptions.js";
+import {projectDescriptions} from "../../descriptions.jsx";
 
 export default function ProjectCarousel() {
     const [carouselRef, carouselApi] = useEmblaCarousel({ loop: true, duration: 30 })

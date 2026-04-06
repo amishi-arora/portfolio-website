@@ -1,6 +1,7 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { aboutDescription } from "./descriptions.jsx";
 import Section from "./components/Section/Section.jsx"
 import NameText from "./components/NameText/NameText.jsx"
 import AboutContent from "./components/AboutContent/AboutContent.jsx";
@@ -22,7 +23,7 @@ function App() {
         <NameText />
       </Section>
       <Section id="aboutSection" title="About Me">
-        <AboutContent />
+        <AboutContent content = {aboutDescription}/>
       </Section>
       <Section id="projectSection" title="Projects">
         <ProjectCarousel />

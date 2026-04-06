@@ -1,11 +1,20 @@
 import ConnectQuestImage from "./assets/ProjectPhotos/ConnectQuest.png"
-import DoAndDoneImage  from "./assets/ProjectPhotos/DoAndDone.png"
+import DoAndDoneImage from "./assets/ProjectPhotos/DoAndDone.png"
 import HabitHatcheryImage from "./assets/ProjectPhotos/HabitHatchery.png"
 import HabitTrackerImage from "./assets/ProjectPhotos/HabitTracker.png"
 import MathGamesImage from "./assets/ProjectPhotos/MathGames.png"
 import RecipeManagementImage from "./assets/ProjectPhotos/RecipeManagement.png"
 
-const projectDescriptions = [
+export const aboutDescription = [
+    "Hi, I'm Amishi! I'm a third-year Computer Science student at the University of British Columbia, passionate about building creative solutions that make a real-world impact.",
+    "I am currently interning as a QA Engineer at the BCMEA, where I have gained hands-on experience with tools like Selenium, Playwright, and NUnit. I previously interned as a Software Developer at TeejLab, where I helped enhance the company’s user interface using HTML, CSS, and JavaScript.",
+    "My experience across both software development and software testing allows me to deliver reliable, well-tested code.",
+    "Outside of work and academics, I enjoy baking, reading, and spending time with my family and friends.",
+    <span>Check out my <a href="">GitHub</a> <br />
+        Get in touch through my <a href="">Email</a> or <a href="">LinkedIn</a></span>
+]
+
+export const projectDescriptions = [
     {
         "title": "Recipe Management System",
         "description": "This project was created for my Introduction to Relational Databases course. I worked with two other team members to create a full-stack project for managing recipes and cooking course registrations. We designed a database schema and wrote queries to filter recipes, track course registrations, and update recipe information. We developed a responsive UI with HTML, CSS, and JavaScript for interaction with the database. ",
@@ -55,5 +64,3 @@ const projectDescriptions = [
         "demoLink": "https://mathgamesamishi.netlify.app/"
     }
 ]
-
-export default projectDescriptions; 
