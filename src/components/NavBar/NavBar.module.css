@@ -6,9 +6,10 @@
     z-index: 1;
 }
 
+
 .link {
     color: var(--text-secondary);
-    padding: 0.4rem 0.7rem 0 0.7rem;
+    padding: 1.2rem 0 0 2rem;
     text-decoration: none;
     font-family: var(--font-primary);
     transition: all 0.4s ease;
@@ -17,19 +18,18 @@
     border: none;
 }
 
-.link:hover{
-    color: var(--navlink-hover); 
-    text-decoration: underline; 
+
+.link:hover {
+    color: var(--navlink-hover);
+    text-decoration: underline;
 }
 
 .active {
-    color: var(--navlink-hover); 
-    text-decoration: underline; 
+    color: var(--navlink-hover);
+    text-decoration: underline;
 }
 
-.linksGroup {
-    margin: 1rem;
-}
+
 
 .contact {
     margin: 0.8rem;
@@ -40,4 +40,21 @@
 .contact i {
     padding: 0.5rem;
     color: var(--text-primary);
+}
+
+@media(max-width: 414px) {
+    .link {
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+
+    .contact {
+        margin: 0rem;
+    }
+
+    .contact i {
+        padding: 0.2rem; 
+        font-size: 1.1rem; 
+    }
+
 }
