@@ -4,18 +4,27 @@ import HabitHatcheryImage from "./assets/ProjectPhotos/HabitHatchery.png"
 import HabitTrackerImage from "./assets/ProjectPhotos/HabitTracker.png"
 import MathGamesImage from "./assets/ProjectPhotos/MathGames.png"
 import RecipeManagementImage from "./assets/ProjectPhotos/RecipeManagement.png"
+import ExamGeneratorImage from "./assets/ProjectPhotos/ExamGenerator.png"
 
 export const aboutDescription = [
     "Hi, I'm Amishi! I'm a third-year Computer Science student at the University of British Columbia, passionate about building creative solutions that make a real-world impact.",
-    "I am currently interning as a QA Engineer at the BCMEA, where I have gained hands-on experience with tools like Selenium, Playwright, and NUnit. I previously interned as a Software Developer at TeejLab, where I helped enhance the company’s user interface using HTML, CSS, and JavaScript.",
+    "I am currently interning as a Software Developer at the BCMEA. Previously, I worked there as a QA Engineer, where I gained experience in software testing and quality assurance. I've also interned as a Software Developer at TeejLab.",
     "My experience across both software development and software testing allows me to deliver reliable, well-tested code.",
-    "Outside of work and academics, I enjoy baking, reading, and spending time with my family and friends.",
+    "Outside of tech, I enjoy baking, reading, and spending time with my family and friends.",
 ]
 
 export const projectDescriptions = [
     {
+        "title": "AI Powered Study Tool",
+        "description": "This project is a full-stack web application that allows students to upload their study material and generate AI-powered practice exams. Users can customize the exam difficulty, question types, and number of questions, as well as include additional instructions and focus topics. After completing the exam, multiple-choice questions are graded automatically, while short-answer questions are evaluated by AI, with detailed feedback provided for each answer.",
+        "image": ExamGeneratorImage,
+        "tags": ["React", "Node.js", "Express.js", "AWS DynamoDB", "Gemini AI", "Tailwind CSS"],
+        "gitHubLink": "https://github.com/amishi-arora/ai-practice-exam-generator",
+        "demoLink": null
+    },
+    {
         "title": "Recipe Management System",
-        "description": "For my Relational Databases course, I worked with two of my classmates to create a full-stack Recipe Management System. This application allows users to upload, favourite, and review various recipes. Recipes contain details like ingredients, equipment, steps, and tags. Additionally, chefs can host courses to demonstrate specific recipes, which other users can sign up for.",
+        "description": "This full-stack recipe management system allows users to upload, favourite, and review various recipes. Recipes contain details like ingredients, equipment, step-by-step instructions, and category tags. Additionally, chefs can host courses to demonstrate specific recipes. Other users can browse available courses and register for them.",
         "image": RecipeManagementImage,
         "tags": ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "SQL", "Oracle"],
         "gitHubLink": "https://github.com/amishi-arora/Recipe-Management-System",
@@ -47,7 +56,7 @@ export const projectDescriptions = [
     },
     {
         "title": "Do and Done",
-        "description": "I developed Do and Done for my Grade 12 capstone project. Inspired by my personal use of to-do list applications, I decided to create my own. Do and Done is a Kanban-style task management system that allows users to add and delete tasks and move them to different sections based on their status. I leveraged libraries such as dragula.js and particles.js to enhance the user experience and implemented user authentication with Firebase. ",
+        "description": "Inspired by my personal use of to-do list applications, I decided to create my own. Do and Done is a Kanban-style task management system that allows users to add and delete tasks and move them to different sections based on their status. I leveraged libraries such as dragula.js and particles.js to enhance the user experience and implemented user authentication with Firebase. ",
         "image": DoAndDoneImage,
         "tags": ["HTML", "CSS", "JavaScript", "Firebase", "Dragula.js", "Particles.js"],
         "gitHubLink": "https://github.com/amishi-arora/Do-and-Done",
