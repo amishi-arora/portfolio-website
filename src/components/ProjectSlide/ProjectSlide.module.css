@@ -68,11 +68,11 @@
   border-radius: 999px;
   font-size: 0.8rem;
   font-weight: 500;
-  transition: transform 0.08s ease; 
+  transition: transform 0.08s ease;
 }
 
 .tags span:hover {
-  transform: scale(1.05); 
+  transform: scale(1.05);
 }
 
 
@@ -112,4 +112,52 @@
 
 .demoButton:hover {
   background-color: var(--button-secondary-hover);
+}
+
+@media(max-width: 768px) {
+  .slideWrapper {
+    flex: 0 0 97%;
+  }
+
+  .slideDimmed {
+    filter: none; 
+    transform: none; 
+  }
+
+  .slideInner {
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+
+  .imageContainer {
+    flex: none;
+    width: 100%;
+    max-width: 15rem;
+  }
+
+  .content {
+    align-items: center;
+    gap: 0.5rem; 
+  }
+
+  .title {
+    text-align: center;
+    font-size: 1.1rem; 
+  }
+
+  .description {
+    text-align: center;
+  }
+
+  .tags {
+    justify-content: center;
+  }
+
+}
+
+@media(max-width: 480px) {
+  .slideInner {
+    border-width: 0.4rem; 
+  }
+
 }

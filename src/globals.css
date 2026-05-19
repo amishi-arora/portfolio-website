@@ -76,3 +76,14 @@ button,
 i {
   cursor: pointer;
 }
+
+
+@media(max-width: 480px) {
+  h1 {
+    font-size: 4.5rem; 
+  } 
+  section {
+    gap: 0.5rem; 
+  }
+
+}

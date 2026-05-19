@@ -48,7 +48,7 @@
     }
     .aboutImage{
         width: 70%; 
-        max-width: 250px;
+        max-width: 15.5rem;
     }
 
     .textContainer {
@@ -57,3 +57,11 @@
     }
 
 }
+
+@media(max-width: 480px) {
+    .aboutContentContainer {
+        border-width: 0.4rem; 
+    }
+
+}
+

@@ -69,3 +69,18 @@
   flex-direction: row;
   justify-content: space-around
 }
+
+@media(max-width: 768px) {
+  .buttonsContainer {
+    display: none; 
+  }
+
+  .carouselControls {
+    justify-content: center;
+  }
+
+  .dotsContainer {
+    margin-top: 0.5rem; 
+  }
+
+}
