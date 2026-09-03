@@ -16,7 +16,7 @@ export const aboutDescription = [
 export const projectDescriptions = [
     {
         "title": "Examify - AI Study Tool",
-        "description": "Examify is a full-stack AI study tool that helps students turn their study materials into personalized practice exams. Users can upload multiple documents, customize exam difficulty, question types, and time limits, and receive AI-generated feedback on their responses. The application includes a RAG pipeline with document chunking, embeddings, and topic-based vector retrieval to generate targeted practice exams focused on students’ weak topics.",
+        "description": "Examify is a full-stack AI study tool that helps students turn their study materials into personalized practice exams. Users can upload multiple documents, customize exam difficulty, question types, and time limits, and receive AI-generated feedback on each question. The application provides AI-powered insights that identify students’ strong and weak topics, allowing them to regenerate targeted practice exams focused on their weak topics using a RAG pipeline with document chunking, embeddings, and topic-based vector retrieval.",
         "image": Examify,
         "tags": ["React", "Node.js", "AWS", "DynamoDB", "S3", "Elastic Beanstalk", "Gemini AI", "Gemini Embeddings", "Pinecone", "Tailwind CSS"],
         "gitHubLink": "http://examify.us-east-2.elasticbeanstalk.com/",
@@ -32,7 +32,7 @@ export const projectDescriptions = [
     },
     {
         "title": "Recipe Management System",
-        "description": "This full-stack recipe management system allows users to upload, favourite, and review various recipes. Recipes contain details like ingredients, equipment, step-by-step instructions, and category tags. Additionally, chefs can host courses to demonstrate specific recipes. Other users can browse available courses and register for them.",
+        "description": "This full-stack recipe management system allows users to upload, favourite, review, and browse recipes containing ingredients, equipment, step-by-step instructions, and category tags. The application also includes a course management system where chefs can create courses to demonstrate specific recipes, while users can browse available courses and register for them.",
         "image": RecipeManagementImage,
         "tags": ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "SQL", "Oracle"],
         "gitHubLink": "https://github.com/amishi-arora/Recipe-Management-System",
@@ -40,7 +40,7 @@ export const projectDescriptions = [
     },
     {
         "title": "Habit Hatchery",
-        "description": "I created Habit Hatchery with two team members during a 12-hour hackathon. The application allows users to name a fish tank after their habit and populate it with a moving animal or plant for each day they complete the habit. By turning habit tracking into a playful, visual experience, the app encourages users to stay consistent and see their progress grow over time. ",
+        "description": "Habit Hatchery was created with two other team members during a 12-hour hackathon. The application allows users to name a fish tank after a habit and populate it with a moving animal or plant for each day they complete the habit. By turning habit tracking into a playful, visual experience, the app encourages users to stay consistent and see their progress grow over time.",
         "image": HabitHatcheryImage,
         "tags": ["HTML", "CSS", "JavaScript", "Figma"],
         "gitHubLink": "https://github.com/amishi-arora/Habit-Hatchery",
@@ -48,15 +48,15 @@ export const projectDescriptions = [
     },
     {
         "title": "Habit Tracker",
-        "description": "This habit tracker application was developed in Java using object-oriented programming. It allows users to add and delete habits and check them off daily. I implemented a unit test suite with JUnit, achieving 98% code coverage, and developed a graphical user interface using JavaFX. To allow users to track their progress across multiple sessions, I included a save and load functionality using JSON. ",
+        "description": "This habit tracker application was developed in Java using object-oriented programming. Users can add, delete, and track habits across multiple days. I implemented a JUnit unit test suite achieving 98% code coverage and developed a graphical user interface using JavaFX. To persist user progress across sessions, I implemented save and load functionality using JSON.",
         "image": HabitTrackerImage,
-        "tags": ["Java", "JUnit", "JavaFX", "JSON", "Test Driven Design", "OOP"],
+        "tags": ["Java", "JUnit", "JavaFX", "JSON", "Test-Driven Development", "OOP"],
         "gitHubLink": "https://github.com/amishi-arora/Habit-Tracker-CPSC-210",
         "demoLink": null
     },
     {
         "title": "Do and Done",
-        "description": "Inspired by my personal use of to-do list applications, I decided to create my own. Do and Done is a Kanban-style task management system that allows users to add and delete tasks and move them to different sections based on their status. I leveraged libraries such as dragula.js and particles.js to enhance the user experience and implemented user authentication with Firebase. ",
+        "description": "Do and Done is a Kanban-style task management system that allows users to add, delete, and organize tasks by moving them between sections based on their status. I implemented user authentication with Firebase and leveraged libraries such as Dragula.js for drag-and-drop functionality and Particles.js to enhance the user interface.",
         "image": DoAndDoneImage,
         "tags": ["HTML", "CSS", "JavaScript", "Firebase", "Dragula.js", "Particles.js"],
         "gitHubLink": "https://github.com/amishi-arora/Do-and-Done",
@@ -64,7 +64,7 @@ export const projectDescriptions = [
     },
     {
         "title": "Math Games",
-        "description": "After taking a programming class in Grade 10, I was inspired to create my very first technical project: a Math Games website. The site allows users to practice addition, subtraction, multiplication, or division by answering as many questions as they can within 30 seconds. At the end of each session, users can view a summary of their correct and incorrect answers. This project sparked my passion for software development, motivating me to pursue it further in university. ",
+        "description": "After taking a programming class in Grade 10, I was inspired to create my first technical project: a Math Games website. The site allows users to practice addition, subtraction, multiplication, or division by answering as many questions as possible within 30 seconds. At the end of each session, users can view a summary of their correct and incorrect answers. This project sparked my passion for software development and motivated me to pursue it further in university.",
         "image": MathGamesImage,
         "tags": ["HTML", "CSS", "JavaScript"],
         "gitHubLink": "https://github.com/amishi-arora/Math-Website",
