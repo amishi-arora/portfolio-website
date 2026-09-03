@@ -48,7 +48,7 @@ export const projectDescriptions = [
     },
     {
         "title": "Habit Tracker",
-        "description": "This habit tracker application was developed in Java using object-oriented programming. Users can add, delete, and track habits across multiple days. I implemented a JUnit unit test suite achieving 98% code coverage and developed a graphical user interface using JavaFX. To persist user progress across sessions, I implemented save and load functionality using JSON.",
+        "description": "This habit tracker application was developed in Java using object-oriented programming. Users can add, delete, and track habits across multiple days. I implemented a JUnit unit test suite, achieving 98% code coverage and developed a graphical user interface using JavaFX. To persist user progress across sessions, I implemented save and load functionality using JSON.",
         "image": HabitTrackerImage,
         "tags": ["Java", "JUnit", "JavaFX", "JSON", "Test-Driven Development", "OOP"],
         "gitHubLink": "https://github.com/amishi-arora/Habit-Tracker-CPSC-210",
