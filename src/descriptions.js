@@ -23,20 +23,20 @@ export const projectDescriptions = [
         "demoLink": null
     },
     {
+        "title": "Connect Quest",
+        "description": "Connect Quest is a full-stack web application designed to help university students connect with their campus community through challenges, daily activities, points, and streaks. Users can complete community-focused challenges and submit text or photo evidence, which is validated against challenge requirements in real time using a multimodal AI pipeline.",
+        "image": ConnectQuestImage,
+        "tags": ["React", "Modular CSS", "Node.js", "AWS", "DynamoDB", "S3", "Cognito", "Bedrock", "Amplify", "Lambda", "API Gateway"],
+        "gitHubLink": "https://github.com/amishi-arora/nwHacks-Project",
+        "demoLink": "https://devpost.com/software/connect-quest"
+    },
+    {
         "title": "Recipe Management System",
         "description": "This full-stack recipe management system allows users to upload, favourite, and review various recipes. Recipes contain details like ingredients, equipment, step-by-step instructions, and category tags. Additionally, chefs can host courses to demonstrate specific recipes. Other users can browse available courses and register for them.",
         "image": RecipeManagementImage,
         "tags": ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "SQL", "Oracle"],
         "gitHubLink": "https://github.com/amishi-arora/Recipe-Management-System",
         "demoLink": null
-    },
-    {
-        "title": "Connect Quest",
-        "description": "For a 24-hour hackathon, I collaborated with three other participants to create Connect Quest. Connect Quest is a full-stack application that provides users with daily self-help challenges they can complete to earn points. The project aims to promote self-care through a fun, gamified way. We implemented the frontend with React, the backend with Node.js, and stored our challenges in a MongoDB database. For many of us, including myself, this was our first experience with these technologies, so we learned and adapted as we went. ",
-        "image": ConnectQuestImage,
-        "tags": ["React", "Node.js", "MongoDB", "Defang.io"],
-        "gitHubLink": "https://github.com/amishi-arora/nwHacks-Project",
-        "demoLink": "https://devpost.com/software/connect-quest"
     },
     {
         "title": "Habit Hatchery",
