@@ -8,7 +8,7 @@ import Examify from "./assets/ProjectPhotos/Examify.png"
 
 export const aboutDescription = [
     "Hi, I'm Amishi! I'm a third-year Computer Science student at the University of British Columbia, passionate about building creative solutions that make a real-world impact.",
-    "I've worked as a Software Developer Intern and Software Quality Assurance Intern at the BCMEA, and previously interned as a Software Developer at TeejLab. Through these roles, I've gained hands-on experience building software, developing APIs, and creating automated tests and testing frameworks.",
+    "I've previously interned as a Software Developer and Software Quality Assurance Engineer at the BCMEA, and as a Software Developer at TeejLab. Through these roles, I've gained hands-on experience building software, developing APIs, and creating automated tests and testing frameworks.",
     "My experience across software development and quality assurance allows me to build reliable, well-tested solutions with a strong focus on quality and user experience.",
     "Outside of tech, I enjoy baking, reading, and spending time with my family and friends.",
 ]
