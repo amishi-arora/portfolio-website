@@ -15,10 +15,10 @@ export const aboutDescription = [
 
 export const projectDescriptions = [
     {
-        "title": "AI Powered Study Tool",
-        "description": "This project is a full-stack web application that allows students to upload their study material and generate AI-powered practice exams. Users can customize the exam difficulty, question types, and number of questions, as well as include additional instructions and focus topics. After completing the exam, multiple-choice questions are graded automatically, while short-answer questions are evaluated by AI, with detailed feedback provided for each answer.",
+        "title": "Examify - AI Study Tool",
+        "description": "Examify is a full-stack AI study tool that helps students turn their study materials into personalized practice exams. Users can upload multiple documents, customize exam difficulty, question types, and time limits, and receive AI-generated feedback on their responses. The application includes a RAG pipeline with document chunking, embeddings, and topic-based vector retrieval to generate targeted practice exams focused on students’ weak topics.",
         "image": ExamGeneratorImage,
-        "tags": ["React", "Node.js", "Express.js", "AWS DynamoDB", "Gemini AI", "Tailwind CSS"],
+        "tags": ["React", "Node.js", "AWS", "DynamoDB", "S3", "Elastic Beanstalk", "Gemini AI", "Gemini Embeddings", "Pinecone", "Tailwind CSS"],
         "gitHubLink": "https://github.com/amishi-arora/ai-practice-exam-generator",
         "demoLink": null
     },
