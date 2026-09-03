@@ -4,7 +4,7 @@ import HabitHatcheryImage from "./assets/ProjectPhotos/HabitHatchery.png"
 import HabitTrackerImage from "./assets/ProjectPhotos/HabitTracker.png"
 import MathGamesImage from "./assets/ProjectPhotos/MathGames.png"
 import RecipeManagementImage from "./assets/ProjectPhotos/RecipeManagement.png"
-import ExamGeneratorImage from "./assets/ProjectPhotos/ExamGenerator.png"
+import Examify from "./assets/ProjectPhotos/Examify.png"
 
 export const aboutDescription = [
     "Hi, I'm Amishi! I'm a third-year Computer Science student at the University of British Columbia, passionate about building creative solutions that make a real-world impact.",
@@ -17,7 +17,7 @@ export const projectDescriptions = [
     {
         "title": "Examify - AI Study Tool",
         "description": "Examify is a full-stack AI study tool that helps students turn their study materials into personalized practice exams. Users can upload multiple documents, customize exam difficulty, question types, and time limits, and receive AI-generated feedback on their responses. The application includes a RAG pipeline with document chunking, embeddings, and topic-based vector retrieval to generate targeted practice exams focused on students’ weak topics.",
-        "image": ExamGeneratorImage,
+        "image": Examify,
         "tags": ["React", "Node.js", "AWS", "DynamoDB", "S3", "Elastic Beanstalk", "Gemini AI", "Gemini Embeddings", "Pinecone", "Tailwind CSS"],
         "gitHubLink": "https://github.com/amishi-arora/ai-practice-exam-generator",
         "demoLink": null
