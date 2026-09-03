@@ -19,15 +19,15 @@ export const projectDescriptions = [
         "description": "Examify is a full-stack AI study tool that helps students turn their study materials into personalized practice exams. Users can upload multiple documents, customize exam difficulty, question types, and time limits, and receive AI-generated feedback on each question. The application provides AI-powered insights that identify students’ strong and weak topics, allowing them to regenerate targeted practice exams focused on their weak topics using a RAG pipeline with document chunking, embeddings, and topic-based vector retrieval.",
         "image": Examify,
         "tags": ["React", "Node.js", "AWS", "DynamoDB", "S3", "Elastic Beanstalk", "Gemini AI", "Gemini Embeddings", "Pinecone", "Tailwind CSS"],
-        "gitHubLink": "http://examify.us-east-2.elasticbeanstalk.com/",
-        "demoLink": null
+        "gitHubLink": "https://github.com/amishi-arora/ai-practice-exam-generator",
+        "demoLink": "http://examify.us-east-2.elasticbeanstalk.com/"
     },
     {
         "title": "Connect Quest",
         "description": "Connect Quest is a full-stack web application designed to help university students connect with their campus community through challenges, daily activities, points, and streaks. Users can complete community-focused challenges and submit text or photo evidence, which is validated against challenge requirements in real time using a multimodal AI pipeline.",
         "image": ConnectQuestImage,
         "tags": ["React", "Modular CSS", "Node.js", "AWS", "DynamoDB", "S3", "Cognito", "Bedrock", "Amplify", "Lambda", "API Gateway"],
-        "gitHubLink": "https://github.com/amishi-arora/nwHacks-Project",
+        "gitHubLink": "https://github.com/amishi-arora/Connect-Quest",
         "demoLink": "https://main.dx8ly1r352j1q.amplifyapp.com/"
     },
     {
