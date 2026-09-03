@@ -19,7 +19,7 @@ export const projectDescriptions = [
         "description": "Examify is a full-stack AI study tool that helps students turn their study materials into personalized practice exams. Users can upload multiple documents, customize exam difficulty, question types, and time limits, and receive AI-generated feedback on their responses. The application includes a RAG pipeline with document chunking, embeddings, and topic-based vector retrieval to generate targeted practice exams focused on students’ weak topics.",
         "image": Examify,
         "tags": ["React", "Node.js", "AWS", "DynamoDB", "S3", "Elastic Beanstalk", "Gemini AI", "Gemini Embeddings", "Pinecone", "Tailwind CSS"],
-        "gitHubLink": "https://github.com/amishi-arora/ai-practice-exam-generator",
+        "gitHubLink": "http://examify.us-east-2.elasticbeanstalk.com/",
         "demoLink": null
     },
     {
@@ -28,7 +28,7 @@ export const projectDescriptions = [
         "image": ConnectQuestImage,
         "tags": ["React", "Modular CSS", "Node.js", "AWS", "DynamoDB", "S3", "Cognito", "Bedrock", "Amplify", "Lambda", "API Gateway"],
         "gitHubLink": "https://github.com/amishi-arora/nwHacks-Project",
-        "demoLink": "https://devpost.com/software/connect-quest"
+        "demoLink": "https://main.dx8ly1r352j1q.amplifyapp.com/"
     },
     {
         "title": "Recipe Management System",
