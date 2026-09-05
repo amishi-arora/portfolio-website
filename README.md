@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-> Personal portfolio website showcasing my projects, experience, and technical skills.
+> Personal portfolio website showcasing my projects
 
 🌐 **[View Portfolio](https://amishiarora.netlify.app/)**
 
